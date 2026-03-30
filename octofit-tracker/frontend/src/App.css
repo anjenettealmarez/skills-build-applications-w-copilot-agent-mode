@@ -1,0 +1,97 @@
+/* Octofit Tracker Custom Styles */
+
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Dark text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Navigation Menu */
+.navbar {
+  background-color: #28a745 !important; /* Green background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e9ecef !important;
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Headings */
+h1 {
+  color: #28a745; /* Green headings */
+  font-weight: 700;
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff;
+  border-color: #dee2e6;
+}
+
+.table thead th {
+  background-color: #28a745 !important; /* Green header */
+  color: #ffffff !important;
+  border-color: #28a745 !important;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light striped rows */
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef; /* Hover effect */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
